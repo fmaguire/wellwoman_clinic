@@ -78,6 +78,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-bottom: 0.5rem;
   font-weight: 700;
   line-height: 1.2;
+  text-align: "center";
 }
 
 h1, .h1 {
@@ -10925,4 +10926,9 @@ header.masthead h1, header.masthead .h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
 }
